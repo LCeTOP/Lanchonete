@@ -1,49 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanchonete Casal 20</title>
-    <link rel="stylesheet" href="CSS/style.css">
-<link rel="stylesheet" href="CSS/cadastro.css">
+    <title>Cadastro - Casal 20 Lanches</title>
+    <link rel="stylesheet" href="CSS/cadastro.css">
 </head>
 <body>
-    <header>
-<<<<<<< HEAD
-        <img src="" alt="">
-=======
-        <img src="assets/img.jpeg" alt="Logo Lanchonete">
->>>>>>> 326aa200f406387b0f1b302a389c4f3dc4e091d5
-        <h1></h1>
-        <h2>CADASTRO</h2>
-    </header>
-    <main>
-        <h2>Bem-vindo à Lanchonete</h2>
 
-<p>Faça o cadastro da sua conta.</p>
+    <div class="container-cadastro">
+        
+        <img class="logo-hamburgueria" src="assets/img.jpeg" alt="Casal 20 Lanches">
+        
+        <h1 class="titulo-pagina">Cadastro</h1>
+        <h2 class="subtitulo-boas-vindas">Bem-vindo à Lanchonete</h2>
+        <p class="texto-instrucao">Faça o cadastro da sua conta.</p>
 
-<form>
+        <form class="card-formulario">
+            
+            <div class="grupo-campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+            </div>
 
-<label for="usuario">Email</label>
+            <div class="grupo-campo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Crie sua senha" required
+                       oninput="confirmarSenha.pattern = this.value">
+            </div>
 
-<input
-type="email"
-id="usuario"
-placeholder="Digite seu email"
-required>
+            <div class="grupo-campo">
+                <label for="confirmarSenha">Confirmar Senha</label>
+                <input type="password" id="confirmarSenha" placeholder="Repita a sua senha" required
+                       title="As senhas devem ser exatamente iguais.">
+            </div>
 
-<label for="senha">Senha</label>
+            <button type="submit" class="btn-cadastrar">Cadastrar</button>
 
-<input
-type="password"
-id="senha"
-placeholder="Crie sua senha"
-required>
+        </form>
 
-<a href="dashboard.html" class="btn">Cadastrar</a>
+    </div>
 
-
-</form>
-    </main>
 </body>
 </html>
