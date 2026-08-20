@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4a0000;
+    padding: 20px 0;
+}
+
+.container-perfil {
+    background-color: #222222;
+    width: 340px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+.topo-perfil {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 15px;
+}
+
+.topo-perfil .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.avatar-foto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 2px solid #ffcc00;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.status {
+    color: #ffcc00;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.secao {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.secao p {
+    font-size: 13px;
+    color: #dddddd;
+    margin-bottom: 6px;
+}
+
+
+
+.nome-lanche {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.data-pedido {
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.preco {
+    color: #ffcc00;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-editar {
+    background-color: #444444;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.botao-pedir {
+    width: 100%;
+    padding: 12px;
+    background-color: #cc0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.botao-pedir:hover {
+    background-color: #e60000;
+}
+
+.botao-sair {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: #888888;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+.botao-sair:hover {
+    border-color: #666666;
+    color: #ffffff;
+}
