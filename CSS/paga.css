@@ -31,7 +31,7 @@ body {
 }
 
 .header-container p {
-    color: #ffffff;
+    color: #ffcc00;
     font-size: 13px;
     margin-top: 5px;
 }
@@ -44,40 +44,63 @@ body {
     color: #ffffff;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.secao-opcao {
+    background-color: #2c2c2c;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
-.form-row {
+.opcao-pagamento {
     display: flex;
+    align-items: center;
     gap: 10px;
-}
-
-.form-row .form-group {
-    flex: 1;
-}
-
-label {
-    display: block;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
     color: #ffffff;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.opcao-pagamento input[type="radio"] {
+    accent-color: #cc0000;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.detalhe-opcao {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #3d3d3d;
+}
+
+.detalhe-opcao p {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.detalhe-opcao label {
+    display: block;
+    font-size: 11px;
+    color: #ffcc00;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-input[type="text"] {
+.detalhe-opcao input[type="text"] {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     background-color: #333333;
     border: 1px solid #555555;
     border-radius: 6px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
     outline: none;
 }
 
-input[type="text"]:focus {
+.detalhe-opcao input[type="text"]:focus {
     border-color: #cc0000;
 }
 
@@ -93,7 +116,7 @@ input[type="text"]:focus {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .btn-cadastrar:hover {
@@ -101,13 +124,15 @@ input[type="text"]:focus {
 }
 
 .btn-clear {
+    display: block;
     width: 100%;
     padding: 10px;
     background-color: transparent;
     color: #888888;
     border: none;
     font-size: 12px;
-    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     margin-top: 8px;
 }
 
