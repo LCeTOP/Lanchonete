@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4a0000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-container .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.header-container h1 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.header-container p {
+    color: #ffcc00;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.Pix {
+    background-color: #222222;
+    width: 340px;
+    padding: 15px;
+    border-radius: 12px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.Pix label {
+    display: block;
+    font-size: 12px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.Pix input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.btn-copiar {
+    width: 100%;
+    padding: 10px;
+    background-color: #383838;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background-color: #444444;
+}
+
+.instrucoes {
+    background-color: #222222;
+    width: 340px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.instrucoes p {
+    font-size: 13px;
+    color: #dddddd;
+    margin-bottom: 6px;
+}
+
+.instrucoes strong {
+    color: #ffcc00;
+}
+
+.btn-cadastrar {
+    display: block;
+    width: 340px;
+    padding: 12px;
+    background-color: #cc0000;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.btn-cadastrar:hover {
+    background-color: #e60000;
+}
+
+.btn-clear {
+    display: block;
+    width: 340px;
+    padding: 10px;
+    background-color: transparent;
+    color: #888888;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.btn-clear:hover {
+    border-color: #666666;
+    color: #ffffff;
+}
+

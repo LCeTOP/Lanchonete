@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Casal 20 Lanches</title>
+    <link rel="stylesheet" href="CSS/cadastro.css">
+</head>
+<body>
+
+    <div class="container-cadastro">
+        
+        <img class="logo-hamburgueria" src="assets/Imagens/Logo/img.png" alt="Casal 20 Lanches">
+        
+        <h1 class="titulo-pagina">Cadastro</h1>
+        <h2 class="subtitulo-boas-vindas">Bem-vindo à Lanchonete</h2>
+        <p class="texto-instrucao">Faça o cadastro da sua conta.</p>
+
+        <form class="card-formulario">
+            
+            <div class="grupo-campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Crie sua senha" required
+                       oninput="confirmarSenha.pattern = this.value">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="confirmarSenha">Confirmar Senha</label>
+                <input type="password" id="confirmarSenha" placeholder="Repita a sua senha" required
+                       title="As senhas devem ser exatamente iguais.">
+            </div>
+
+            <button type="submit" class="btn-cadastrar">Cadastrar</button>
+
+        </form>
+
+
+
+</body>
+</html>
