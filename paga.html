@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de Pagamento - Casal 20</title>
+    <link rel="stylesheet" href="assets/CSS/paga.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <img src="assets/Imagens/Logo/img.png" alt="Casal 20 Lanches" class="logo">
+        <h1>Forma de Pagamento</h1>
+        <p>Escolha como deseja pagar</p>
+    </div>
+
+    <div class="checkout-container">
+        <form>
+            <div class="secao-opcao">
+                <label class="opcao-pagamento">
+                    <input type="radio" name="pagamento" value="pix" checked>
+                    <span>⚡ Pix (Aprovação Instantânea)</span>
+                </label>
+                <div class="detalhe-opcao">
+                    <p>O código QR Code será gerado na próxima tela.</p>
+                </div>
+            </div>
+
+            <div class="secao-opcao">
+                <label class="opcao-pagamento">
+                    <input type="radio" name="pagamento" value="cartao-entrega">
+                    <span>💳 Cartão na Entrega</span>
+                </label>
+                <div class="detalhe-opcao">
+                    <p>O entregador levará a maquininha (Débito ou Crédito).</p>
+                </div>
+            </div>
+
+            <div class="secao-opcao">
+                <label class="opcao-pagamento">
+                    <input type="radio" name="pagamento" value="dinheiro">
+                    <span>💵 Dinheiro na Entrega</span>
+                </label>
+                <div class="detalhe-opcao">
+                    <label for="troco">Troco para quanto?</label>
+                    <input type="text" id="troco" placeholder="Ex: R$ 50,00 (ou 'sem troco')">
+                </div>
+            </div>
+
+            <a href="pedido.html" class="btn-cadastrar">Confirmar Pedido</a>
+            <a href="menu.html" class="btn-clear">Voltar ao Menu</a>
+        </form>
+    </div>
+
+</body>
+</html>
